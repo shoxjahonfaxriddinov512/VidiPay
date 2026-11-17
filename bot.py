@@ -17,10 +17,10 @@ BUTTON_TEXT = os.environ.get("BUTTON_TEXT", "🚀 Boshlash")
 PORT = int(os.environ.get("PORT", 10000))
 
 WELCOME_TEXT = (
-    "👋 <b>Xush kelibsiz!</b>\n\n"
-    "🎬 Bu yerga o'zingizning matningizni yozing.\n"
-    "👥 Istagan matn, emoji va <b>qalin</b> yozuvlardan foydalanishingiz mumkin.\n\n"
-    "Boshlash uchun pastdagi tugmani bosing 👇"
+    "👋 <b>Welcome to VidiPay!</b>\n\n"
+    "🎬 Watch videos — every second you watch is added to your balance.\n"
+    "👥 Invite friends — each active friend unlocks a frame: +1.05$ for every hour you watch (only when you and your friend are both in Tier 1).\n\n"
+    "Tap below to start  👇"
 )
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
